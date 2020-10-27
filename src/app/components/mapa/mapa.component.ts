@@ -11,8 +11,8 @@ import { MapaEditarComponent } from './mapa-editar.component';
 })
 export class MapaComponent implements OnInit {
   Marcadores: Marcador[] = [];
-  lat: number = 20.4242944;
-  lng: number = 101.718511414;
+  lat: number = 20.51525197904175;
+  lng: number = -101.90874088139854;
   constructor(
     private _snackBar: MatSnackBar,
     public dialog: MatDialog
